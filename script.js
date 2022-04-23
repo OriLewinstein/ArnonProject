@@ -24,6 +24,7 @@ document.querySelector(".closebtn").addEventListener("click", function () {
   window3.close();
 
   document.location.reload();
+  document.getElementsByClassName("search")[0].focus();
 });
 
 const btn = document.querySelector(".button");
