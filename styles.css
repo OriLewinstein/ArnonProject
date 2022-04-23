@@ -32,9 +32,16 @@ body {
 }
 
 .function {
+<<<<<<< HEAD
   text-align: center;
   padding-top: 15%;
   margin: 0 auto;
+=======
+
+    text-align: center;
+    padding-top: 15%;
+    margin: 0 auto;
+>>>>>>> e9249012e3f65375ec2b5d20e771890e436d14a6
 }
 .search {
   height: 3rem;
