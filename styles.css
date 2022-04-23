@@ -72,9 +72,21 @@ body {
   color: #fff;
   background-color: rgb(88, 101, 242);
   transition: background-color 0.17s ease, color 0.17s ease;
-  border-width: 0.1rem;
-  border-style: solid;
-  border-color: azure;
+
+
+
+  background-image: 
+    linear-gradient(
+      transparent 0%,
+      transparent 90%,
+      rgb(55, 45, 194) 90%,
+      rgb(55, 45, 194) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  
+  transition: background-size 300ms;
 }
 
 .closebtn {
@@ -97,15 +109,29 @@ body {
   color: #fff;
   background-color: rgb(246, 28, 99);
   transition: background-color 0.17s ease, color 0.17s ease;
-  border-width: 0.1rem;
-  border-style: solid;
-  border-color: azure;
+
+  background-image: 
+    linear-gradient(
+      transparent 0%,
+      transparent 90%,
+      rgb(248, 66, 66) 90%,
+      rgb(248, 66, 66) 0%
+    );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  
+  transition: background-size 300ms;
 }
 
 .closebtn:hover {
   background-color: rgb(229, 9, 53);
+  background-size: 100% 100%;
+  background-position-x: left;
 }
 
 .button:hover {
   background-color: rgb(71, 82, 196);
+  background-size: 100% 100%;
+  background-position-x: left;
 }
