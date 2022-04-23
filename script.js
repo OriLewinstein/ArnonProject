@@ -23,7 +23,7 @@ document.querySelector(".closebtn").addEventListener("click", function () {
   window2.close();
   window3.close();
 
-  document.location.reload();
+  document.querySelector(".search").value = "";
   document.getElementsByClassName("search")[0].focus();
 });
 
