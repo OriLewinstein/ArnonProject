@@ -10,10 +10,6 @@ body {
   transition: color 1s ease, color 1s, ease-in;
 }
 
-.codedBy:hover {
-  color: antiquewhite;
-}
-
 .stock_Quest {
   text-align: center;
   margin-top: 5rem;
