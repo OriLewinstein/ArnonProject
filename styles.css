@@ -76,6 +76,9 @@ body {
   color: #fff;
   background-color: rgb(88, 101, 242);
   transition: background-color 0.17s ease, color 0.17s ease;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: azure;
 }
 
 .closebtn {
@@ -98,6 +101,9 @@ body {
   color: #fff;
   background-color: rgb(246, 28, 99);
   transition: background-color 0.17s ease, color 0.17s ease;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: azure;
 }
 
 .closebtn:hover {
