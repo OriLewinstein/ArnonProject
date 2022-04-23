@@ -13,6 +13,15 @@ body {
   color: antiquewhite;
 }
 
+.stock_Quest {
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
 .stock_finder {
   text-align: center;
   margin-top: 5rem;
