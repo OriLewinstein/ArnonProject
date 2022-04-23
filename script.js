@@ -23,7 +23,7 @@ document.querySelector(".closebtn").addEventListener("click", function () {
   window2.close();
   window3.close();
 
-  document.querySelector(".search").textContent = " ";
+  document.querySelector(".search").value = " ";
 });
 
 const btn = document.querySelector(".button");
