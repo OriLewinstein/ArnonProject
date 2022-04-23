@@ -1,86 +1,110 @@
 body {
-    background-color: #222;
+  background-color: #222;
+}
+.codedBy {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: aliceblue;
+  transition: color 0.17s ease, color 0.17s, ease-in-out;
+}
+
+.codedBy:hover {
+  color: antiquewhite;
 }
 
 .stock_Quest {
-    text-align: center;
-    margin-top: 5rem;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: aliceblue;
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: aliceblue;
 }
 
+.stock_finder {
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: aliceblue;
+}
 
 .function {
-
-    text-align: center;
-    padding-top: 15%;
-    margin: 0 auto;
+  text-align: center;
+  padding-top: 15%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15%;
+  margin: 0 auto;
 }
+
 .search {
-    height: 3rem;
-    width: 30rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: x-large;
-    font-family: 'Oswald', sans-serif;
-    border-radius: 10px;
-    transition: background-color .17s ease, color .17s ease;
+  height: 3rem;
+  width: 30rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  transition: background-color 0.17s ease, color 0.17s ease;
 }
 
 .search:hover {
-    background-color: gainsboro;
+  background-color: gainsboro;
 }
 
 .button {
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
-    position: absolute;
-    margin-top: 0.2rem;
-    margin-left: 1.25rem;    ;
-    display: inline-block;
-    outline: none;
-    cursor: pointer; 
-    border-radius: 10px;
-    font-weight: 500px;
-    line-height: 16px;
-    padding: 2px 16px;
-    height: 3rem;
-    min-width: 96px;
-    min-height: 38px;
-    border: none;
-    color: #fff;
-    background-color: rgb(88,101,242);
-    transition: background-color .17s ease, color .17s ease;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  position: absolute;
+  margin-top: 0.2rem;
+  margin-left: 1.25rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500px;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 3rem;
+  min-width: 96px;
+  min-height: 38px;
+  border: none;
+  color: #fff;
+  background-color: rgb(88, 101, 242);
+  transition: background-color 0.17s ease, color 0.17s ease;
 }
 
 .closebtn {
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
-    position: absolute;
-    margin-top: 4rem;
-    margin-left: 1.25rem;    ;
-    display: inline-block;
-    outline: none;
-    cursor: pointer; 
-    border-radius: 10px;
-    font-weight: 500px;
-    line-height: 16px;
-    padding: 2px 16px;
-    height: 3rem;
-    min-width: 96px;
-    min-height: 38px;
-    border: none;
-    color: #fff;
-    background-color: rgb(246, 28, 99);
-    transition: background-color .17s ease, color .17s ease;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  position: absolute;
+  margin-top: 4rem;
+  margin-left: 1.25rem;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500px;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 3rem;
+  min-width: 96px;
+  min-height: 38px;
+  border: none;
+  color: #fff;
+  background-color: rgb(246, 28, 99);
+  transition: background-color 0.17s ease, color 0.17s ease;
 }
 
 .closebtn:hover {
+
     background-color: rgb(229, 9, 53);
+
 }
 
 .button:hover {
-    background-color: rgb(71, 82, 196);
+  background-color: rgb(71, 82, 196);
 }
