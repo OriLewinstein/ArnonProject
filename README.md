@@ -1,4 +1,5 @@
 # ArnonProject
+
 This website is meant for stock research.
 By pressing the "Search" button it opens 3 websites with the stock tag given in the search bar:
 
